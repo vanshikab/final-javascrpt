@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Javascript Quiz Game</title>
+        <h1>General Knowledge Quiz</h1>
+        <script language="javascript">
+            var score=0;
+
+            function right() {
+                score++
+                alert("Correct! Your score is now " + score);
+
+            }
+
+            function wrong() {
+
+                score--
+                alert("Wrong! Your score is now " + score);
+
+            }
+        </script>
+    </head>
+    <body>
+        <ol>
+            <form>
+                <li>Where is The Eiffel Tower ?</li>
+                <label class="l1"><input name="but1" type="checkbox" value="Submit" onclick="right()"> Paris</label>
+                <label class="l2"><input name="but2" type="checkbox" value="Submit" onclick="wrong()"> France</label>
+                <label class="l3"><input name="but2" type="checkbox" value="Submit" onclick="wrong()"> America</label>
+                <label class="l4"><input name="but2" type="checkbox" value="Submit" onclick="wrong()"> England</label>
+
+                <li>Where is The Colosseum? </li>
+                <label class="l1"><input name="but1" type="checkbox" value="Submit" onclick="right()"> Rome</label>
+                <label class="l2"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Dubai</label>
+                <label class="l3"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Canada</label>
+                <label class="l4"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Saudi Arabia</label>
+
+                
+                <li>Where is The Golden Gate Bridge? </li>
+                <label class="l1"><input name="but1" type="checkbox" value="Submit" onclick="right()"> California</label>
+                <label class="l2"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Paris</label>
+                <label class="l3"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Seattle</label>
+                <label class="l4"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Cleveland</label>
+
+                <li>Where is The Pyramids? </li>
+               <label class="l1"><input name="but1" type="checkbox" value="Submit" onclick="right()"> Egypt</label>
+               <label class="l2"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> California</label>
+               <label class="l3"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Rome</label>
+               <label class="l4"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Africa</label>
+                
+                <li>Where is The Great Wall of China? </li>
+                <label class="l1"><input name="but1" type="checkbox" value="Submit" onclick="right()"> China</label>
+               <label class="l2"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Japan</label>
+               <label class="l3"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> North Korea</label>
+               <label class="l4"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> South korea</label>
+
+               <li> Who is the president of USA?</li>
+               <label class="l1"><input name="but1" type="checkbox" value="Submit" onclick="right()"> Donald Trump </label>
+               <label class="l2"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Barack Obama</label>
+               <label class="l3"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Bill Clinton</label>
+               <label class="l4"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Jimmy Carter</label>
+
+               <li>Which country is the the largest country in the world?</li>
+               <label class="l1"><input name="but1" type="checkbox" value="Submit" onclick="right()"> Russia</label>
+               <label class="l2"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> China</label>
+               <label class="l3"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> India</label>
+               <label class="l4"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Canada</label>
+
+                 <li> Who was the last president of USA?</li>
+               <label class="l1"><input name="but1" type="checkbox" value="Submit" onclick="right()"> Barack Obama</label>
+               <label class="l2"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Donald Trump</label>
+               <label class="l3"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Bill Clinton</label>
+               <label class="l4"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Jimmy Carter</label>
+
+
+               <li> Which is the richest place in the world?</li>
+               <label class="l1"><input name="but1" type="checkbox" value="Submit" onclick="right()"> Japan</label>
+               <label class="l2"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> London</label>
+               <label class="l3"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Paris</label>
+               <label class="l4"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> New York</label>
+
+               <li> Who is the prime minister of Canada?</li>
+               <label class="l1"><input name="but1" type="checkbox" value="Submit" onclick="right()"> Justin Trudeau</label>
+               <label class="l2"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Donald Trump</label>
+               <label class="l3"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Bill Clinton</label>
+               <label class="l4"><input name="but1" type="checkbox" value="Submit" onclick="wrong()"> Stephen Harper</label>
+
+
+
+                
+
+
+
+            
+            
+            </form>
+        </ol>       
+        
+    </body>
+</html>
